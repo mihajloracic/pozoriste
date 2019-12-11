@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/angular.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>Hello</h1>
+    <div ng-controller="myCtrl">
+        <div ng-repeat="play in plays">
+            <h1><a href="/play.html?playId={{play.id}}">{{play.name}}</a></h1>
+            <p>{{play.description}}</p>
+            <img src="data:image/jpeg;base64,{{play.mainImage.image}}"></img>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
