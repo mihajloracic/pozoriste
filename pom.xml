@@ -11,7 +11,7 @@
     <groupId>mihajlo.mina</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <playName>pozoristepromena</playName>
+    <name>pozoristepromena</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
